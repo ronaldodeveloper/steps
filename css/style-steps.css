@@ -1,0 +1,23 @@
+@charset "utf-8";
+body{
+	background-color: #a5b89f;
+}
+.container{
+	position:relative;
+	background-image: url(../images/anime.png);
+	width:600px;
+	height:150px;
+	margin: 0 auto;
+	margin-top:200px;
+	border-bottom: #9fada0 2px solid  ;
+	animation: movimentos 1s steps(8) infinite; 
+	}
+		
+@keyframes movimentos {
+	from{ background-position:0px 0px;}
+	to{ background-position:5000px 0px;}
+}
+
+
+
+
